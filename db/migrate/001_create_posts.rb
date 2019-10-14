@@ -6,3 +6,6 @@ class CreatePosts < ActiveRecord::Migration
       t.text :description
       
       t.timestamps null: false
+    end
+  end
+end
